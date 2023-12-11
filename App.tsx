@@ -6,9 +6,9 @@
  */
 
 import React from 'react';
-import { DataComponent } from './DataComponent';
+import { DataComponent } from './component/DataComponent';
 import { Provider } from 'react-redux';
-import {store} from './store'
+import {store} from './redux/store/store'
 export function App() { 
   return (
     <Provider store={store}>

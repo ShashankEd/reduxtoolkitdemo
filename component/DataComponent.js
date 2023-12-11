@@ -5,7 +5,7 @@ import {
   StyleSheet,
 } from 'react-native';
 import { useDispatch, useSelector } from 'react-redux';
-import { api } from './DataSlice';
+import { api } from '../redux/DataSlice';
 
 export const DataComponent = () => {
   const dispatchAction = useDispatch()
